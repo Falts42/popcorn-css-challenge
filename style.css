@@ -3,3 +3,37 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+.top-bar {
+  display: flex;
+  vertical-align: top;
+}
+
+.button-style{
+  background-color: #805215;
+  color: white;
+  margin: 20px;
+}
+
+.main-box{
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  background: #D4A76A;
+
+}
+
+
+.container{
+    border: 2px solid black;
+    background: white;
+    margin: 5px;
+}
+
+#low-div{
+  align-items: center;
+  border: 2px solid black;
+  background: white;
+  margin: 5px;
+}
